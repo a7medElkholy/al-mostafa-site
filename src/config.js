@@ -4,8 +4,8 @@
    مثال:  "/images/hero1.jpg"
    لو سيبته فاضي ""  هيظهر مربع placeholder
    ===================================================== */
-export const HERO_IMAGES = [ "public/images/9.jpeg", "public/images/3.jpg.jpeg", "public/images/5.jpg.jpeg"]            //3خلفيات الهوم
-export const WORK_IMAGES = ["public/images/3.jpg.jpeg", "public/images/4.jpg.jpeg", "public/images/5.jpg.jpeg", "public/images/6.jpg.jpeg", "public/images/7.jpg.jpeg", "public/images/9.jpeg"] // 6 صور للأعمال
+export const HERO_IMAGES = [ "/images/9.jpeg", "/images/3.jpg.jpeg", "/images/5.jpg.jpeg"]            //3خلفيات الهوم
+export const WORK_IMAGES = ["/images/3.jpg.jpeg", "/images/4.jpg.jpeg", "/images/5.jpg.jpeg", "/images/6.jpg.jpeg", "/images/7.jpg.jpeg", "/images/9.jpeg"] // 6 صور للأعمال
 export const CLIENT_LOGOS = ["", "", "", "", "", "", "", ""] // لوجوهات العملاء (زوّد أو قلّل)
 
 /* ✅ بيانات التواصل — رقم الواتساب بصيغة دولية من غير + */
