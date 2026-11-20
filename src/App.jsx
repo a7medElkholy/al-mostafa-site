@@ -13,7 +13,7 @@ import Clients from './components/Clients'
 import Contact from './components/Contact'
 
 export default function App() {
-  const [lang, setLang] = useState('ar')
+  const [lang, setLang] = useState('en')
   const t = { ...T[lang], ...X[lang] }
 
   useEffect(() => {
@@ -43,7 +43,7 @@ export default function App() {
     <span className="layer">Facebook</span>
   </a>
 
-  <a href="#" className="sidebar-item s-whats">
+  <a href="https://wa.me/201009317821" target="_blank" rel="noopener noreferrer" className="sidebar-item s-whats">
     <i className="fa-brands fa-whatsapp"></i>
     <span className="layer">WhatsApp</span>
   </a>
