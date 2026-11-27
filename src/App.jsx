@@ -12,7 +12,7 @@ import Works from './components/Works'
 import Clients from './components/Clients'
 import Contact from './components/Contact'
 import partnerLogo from "../public/images/Logo-WEG.png";
-import Partners from './components/partners'
+import Partners from './components/Partners'
 
 export default function App() {
   const [lang, setLang] = useState('en')
