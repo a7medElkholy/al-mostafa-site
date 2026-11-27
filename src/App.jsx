@@ -11,6 +11,8 @@ import Why from './components/Why'
 import Works from './components/Works'
 import Clients from './components/Clients'
 import Contact from './components/Contact'
+import partnerLogo from "../public/images/Logo-WEG.png";
+import Partners from './components/partners'
 
 export default function App() {
   const [lang, setLang] = useState('en')
@@ -28,9 +30,9 @@ export default function App() {
       <Services t={t} />
       <Stats t={t} />
       <ServicesList t={t} />
-      <Certifications t={t} />
       <Why t={t} />
       <Works t={t} />
+      <Partners logo={partnerLogo} name="WEG" country="Egypt" />
       <Clients t={t} />
       <Contact t={t} />
       <footer>{t.foot}</footer>
@@ -38,7 +40,7 @@ export default function App() {
     
 <div className="sidebar">
 
-  <a href="#" className="sidebar-item s-face">
+  <a href="https://www.facebook.com/share/1GpVdELLKf/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer" className="sidebar-item s-face">
     <i className="fa-brands fa-facebook"></i>
     <span className="layer">Facebook</span>
   </a>

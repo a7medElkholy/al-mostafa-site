@@ -4,9 +4,9 @@
    مثال:  "/images/hero1.jpg"
    لو سيبته فاضي ""  هيظهر مربع placeholder
    ===================================================== */
-export const HERO_IMAGES = [ "/images/9.jpeg", "/images/3.jpg.jpeg", "/images/5.jpg.jpeg"]            //3خلفيات الهوم
-export const WORK_IMAGES = ["/images/3.jpg.jpeg", "/images/4.jpg.jpeg", "/images/5.jpg.jpeg", "/images/6.jpg.jpeg", "/images/7.jpg.jpeg", "/images/9.jpeg"] // 6 صور للأعمال
-export const CLIENT_LOGOS = ["", "", "", "", "", "", "", ""] // لوجوهات العملاء (زوّد أو قلّل)
+export const HERO_IMAGES = [ "/images/9.jpeg", "/images/3.jpg.jpeg", "/images/5.jpg.jpeg" ,"/images/10.jpg.jpeg"]            //3خلفيات الهوم
+export const WORK_IMAGES = ["/images/3.jpg.jpeg", "/images/4.jpg.jpeg", "/images/5.jpg.jpeg", "/images/6.jpg.jpeg", "/images/7.jpg.jpeg", "/images/9.jpeg" , "/images/10.jpg.jpeg" , "/images/11.jpg.jpeg"] // 6 صور للأعمال
+export const CLIENT_LOGOS = ["/images/Logo-WEG.png", "/images/images (1).jpg", "/images/images (2).jpg", "/images/images-28-1.jpeg", "/images/ICPM-logo.png", "/images/images.png", "/images/download.jpg", "/images/images.jpg" , "/images/images (3).jpg" , "/images/images (1).png"] // لوجوهات العملاء (زوّد أو قلّل)
 
 /* ✅ بيانات التواصل — رقم الواتساب بصيغة دولية من غير + */
 export const CONTACT = {
@@ -30,5 +30,5 @@ export const MAP_EMBED = "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d
    ولو عندك صورة QR جاهزة حطها في qr (مثال "/images/qr-whatsapp.png") وهتتعرض بدل التلقائي */
 export const SOCIAL = {
   whatsapp: { link: "https://wa.me/201009317821", qr: "" },
-  facebook: { link: "https://www.facebook.com/", qr: "" },
+  facebook: { link: "https://www.facebook.com/share/1GpVdELLKf/?mibextid=LQQJ4d", qr: "" },
 }

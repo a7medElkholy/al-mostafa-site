@@ -1,0 +1,64 @@
+.partners {
+  /* غيّر السطر ده بس بلون موقعك الأساسي */
+  --accent: #06266b;
+
+  --text: var(--accent);
+  --muted: var(--accent);
+  --line: #e3e6eb;
+  background: #fff;
+  color: var(--text);
+  font-family: inherit;
+  padding: 88px 24px;
+}
+.partners *,
+.partners *::before,
+.partners *::after { box-sizing: border-box; }
+
+/* الكمبيوتر: النص والشعار جنب بعض بالعرض */
+.partners__wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+}
+.partners__text { padding-inline-end: 56px; }
+.partners__label {
+  display: flex; align-items: center; gap: 14px;
+  margin: 0 0 18px; color: var(--accent); font-weight: 700; font-size: 16px;
+}
+.partners__label::after { content: ""; width: 64px; height: 2px; background: var(--accent); }
+.partners h2 {
+  margin: 0 0 18px; font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.35; font-weight: 700; max-width: 20ch;
+}
+.partners__lead { margin: 0 0 26px; max-width: 58ch; color: var(--muted); font-size: 18px; line-height: 1.9; }
+.partners__points { display: flex; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
+.partners__points li {
+  padding-inline-end: 22px; margin-inline-end: 22px;
+  border-inline-end: 1px solid var(--line); font-weight: 600;
+}
+.partners__points li:last-child { border: 0; margin: 0; padding: 0; }
+
+.partners__brand { padding-inline-start: 56px; border-inline-start: 1px solid var(--line); text-align: center; }
+.partners__logo {
+  height: 190px; display: flex; align-items: center; justify-content: center;
+  background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--accent);
+  border-radius: 6px; padding: 22px; margin-bottom: 20px;
+}
+.partners__logo img { max-width: 100%; max-height: 100%; object-fit: contain; }
+.partners__logo span { color: #9aa1ad; font-size: 14px; }
+.partners__name { margin: 0 0 4px; font-weight: 700; font-size: 20px; }
+.partners__country { margin: 0; color: var(--muted); font-size: 15px; }
+
+/* الموبايل والتابلت: بالطول، النص فوق والشعار تحته */
+@media (max-width: 860px) {
+  .partners { padding: 60px 18px; }
+  .partners__wrap { grid-template-columns: 1fr; }
+  .partners__text { padding: 0 0 36px; }
+  .partners__lead { font-size: 16px; }
+  .partners__points { flex-direction: column; gap: 8px; }
+  .partners__points li { border: 0; margin: 0; padding: 0; }
+  .partners__brand { padding: 36px 0 0; border: 0; border-top: 1px solid var(--line); }
+  .partners__logo { height: 150px; }
+}

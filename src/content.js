@@ -32,7 +32,7 @@ export const T={
   stTitle:"WORKSHOP STATISTICS",stSub:"UNTIL PRESENT",
   stats:[[25,"YEARS OF","EXPERIENCE"],[15,"TECHNICIANS &","WORKERS"],[300,"JOBS PER","YEAR"]],
   works:{k:"PORTFOLIO",h:"Our Work",ph:"Add work photo here",
-   items:[["3-Phase Motor Rewinding","Workshop"],["Generator Rewinding","Workshop"],["Rotor Balancing","Workshop"],["Bearing Replacement","Workshop"],["Insulation Test","On-site"],["On-site Maintenance","On-site"]]},
+   items:[["3-Phase Motor Rewinding","Workshop"],["Generator Rewinding","Workshop"],["Rotor Balancing","Workshop"],["Bearing Replacement","Workshop"],["Insulation Test","On-site"],["On-site Maintenance","On-site"], ["Rotor Balancing","Workshop"] , ["Rotor Balancing","Workshop"]]},
   clients:{k:"TRUSTED BY",h:"Companies We Worked With",ph:"Company logo"},
   contact:{k:"WE'RE HERE FOR YOU",h:"Contact Us",phone:"Phone",wa:"WhatsApp",mail:"Email",
    name:"Your name",tel:"Phone number",msg:"Your message or fault description",send:"Send via WhatsApp",
